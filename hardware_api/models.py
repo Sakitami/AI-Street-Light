@@ -9,3 +9,4 @@ class Light(models.Model):
     status = models.BooleanField(default=False)
     group = models.IntegerField()
     rgb = models.CharField(max_length=9, default='858585')
+    edit_flag = models.BooleanField(default=False)
